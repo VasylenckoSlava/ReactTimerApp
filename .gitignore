@@ -1,0 +1,11 @@
+node_modules/
+.git-rewrite/backup-refs
+.git-rewrite/commit
+.git-rewrite/heads
+.git-rewrite/index
+.git-rewrite/index.lock
+.git-rewrite/parse
+.git-rewrite/raw-heads
+.git-rewrite/revs
+heroku_rsa
+heroku_rsa.pub
