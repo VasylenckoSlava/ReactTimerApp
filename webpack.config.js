@@ -1,4 +1,5 @@
 var webpack = require('webpack');
+var path = require('path');
 
 module.exports = {
 entry: [
@@ -45,5 +46,10 @@ Controls: 'app/components/Controls.jsx'
       }
     ]
   },
-  devtool: 'cheap-module-eval-source-map'
+  sassLoader: {
+    includePaths: [
+      path.resolve(__dirname,'./node_modules/foundation-sites/scss')
+    ]
+  },
+  devtools: 'cheap-module-eval-source-map'
 };
